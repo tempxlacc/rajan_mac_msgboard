@@ -31,9 +31,9 @@ en1: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	inet6 fe80::86:acfa:c0fe:5c13%en1 prefixlen 64 secured scopeid 0xb 
 	inet 10.70.247.178 netmask 0xfffff000 broadcast 10.70.255.255
 	inet6 2001:4898:e0:2022:1855:1380:a020:8c5e prefixlen 64 autoconf secured 
-	inet6 2001:4898:e0:2022:28ff:127a:d51a:70ab prefixlen 64 autoconf temporary 
-	inet6 2001:4898:e0:2022:783a:266:7c7a:ea1 prefixlen 64 autoconf temporary 
-	inet6 2001:4898:e0:2022:19c4:42fe:ee1c:9cb8 prefixlen 64 autoconf temporary 
+	inet6 2001:4898:e0:2022:28ff:127a:d51a:70ab prefixlen 64 deprecated autoconf temporary 
+	inet6 2001:4898:e0:2022:783a:266:7c7a:ea1 prefixlen 64 deprecated autoconf temporary 
+	inet6 2001:4898:e0:2022:19c4:42fe:ee1c:9cb8 prefixlen 64 deprecated autoconf temporary 
 	inet6 2001:4898:e0:2022:7c40:7090:435b:d397 prefixlen 64 autoconf temporary 
 	nd6 options=201<PERFORMNUD,DAD>
 	media: autoselect
