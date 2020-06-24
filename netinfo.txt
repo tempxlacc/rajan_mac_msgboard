@@ -39,7 +39,7 @@ en1: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	nd6 options=201<PERFORMNUD,DAD>
 	media: autoselect
 	status: active
-p2p0: flags=8802<BROADCAST,SIMPLEX,MULTICAST> mtu 2304
+p2p0: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 2304
 	ether 0a:f9:d3:3c:29:07 
 	media: autoselect
 	status: inactive
